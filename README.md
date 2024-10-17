@@ -29,3 +29,38 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # XtaskFront
 >>>>>>> 879e3ad41af50359ddb0bd213b267e6fcd2d3930
+
+Diccionario de componentes: 
+
+Gestión de proyectos:
+
+  Crear componentes para Crear Proyecto, Editar Proyecto, Detalle Proyecto, Registrar Proyecto.
+  
+  ng generate component proyectos/crear-proyecto
+  ng generate component proyectos/editar-proyecto
+  ng generate component proyectos/detalle-proyecto
+
+Asignaciones:
+
+  Componentes para Crear asignación, Editar asignación, Detalle asignación.
+  
+  ng generate component asignaciones/crear-asignacion
+  ng generate component asignaciones/editar-asignacion
+  ng generate component asignaciones/detalle-asignacion
+
+KPI (Key Performance Indicators):
+
+  Componentes para Crear Indicadores, Editar Indicadores, Visualización KPI en barras, Administrador KPI.
+  
+  ng generate component kpis/crear-indicador
+  ng generate component kpis/editar-indicador
+  ng generate component kpis/visualizador-barras
+  ng generate component kpis/administrador
+
+Registro de ausencias y vacaciones:
+
+  Calendario, Solicitud de vacaciones, Detalle de ausencias.
+ 
+  ng generate component ausencias/calendario
+  ng generate component ausencias/solicitud
+  ng generate component ausencias/detalle
